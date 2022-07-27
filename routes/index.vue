@@ -97,12 +97,10 @@ function onClick(todo: TodoItem) {
 <template>
   <div className="todos-app">
     <Head>
-      <title>Todos</title>
+      <title>Todo</title>
       <meta name="description" content="A todos app powered by Aleph.js" />
     </Head>
-    <h1>
-      <span>Todos</span>
-    </h1>
+    <h1>Todo</h1>
     <ul>
       <li v-for="todo in data?.todos" :key="todo.id">
         <input

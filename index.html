@@ -4,11 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/logo.svg">
-  <link rel="stylesheet" href="./style/app.css">
+  <link rel="stylesheet" href="https://esm.sh/@unocss/reset@0.33.2/tailwind.css">
+  <style>
+    #root {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
 </head>
 
-<body>
+<body class="bg-red text-lg">
   <div id="root" data-ssr-root></div>
   <script type="module" src="./main.ts"></script>
 </body>

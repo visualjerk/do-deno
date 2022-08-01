@@ -100,7 +100,7 @@ function onClick(todo: TodoItem) {
       <title>Todo</title>
       <meta name="description" content="A todos app powered by Aleph.js" />
     </Head>
-    <h1>Todo</h1>
+    <h1>Todo Hello</h1>
     <ul>
       <li v-for="todo in data?.todos" :key="todo.id">
         <input
